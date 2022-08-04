@@ -1,6 +1,8 @@
 import React from "react";
 // rendered by App.js
 export default function BeerDetails(props) {
+  // export default function BeerDetails({ arrayOfBeer, handleClick }) { 
+    // ^ this method  allows me to see what values are passing through ^
   return (
     <ol>
       {props.arrayOfBeer.map((beer, index) => {
